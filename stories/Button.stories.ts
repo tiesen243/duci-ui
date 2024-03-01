@@ -12,7 +12,10 @@ const meta = {
     },
   },
   tags: ["autodocs"],
-  argTypes: {},
+  args: {
+    variant: "primary",
+    size: "md",
+  },
 } satisfies Meta<typeof Button>;
 
 export default meta;
